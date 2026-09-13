@@ -16,3 +16,9 @@ body{font-family:"Noto Sans Sinhala",Poppins,sans-serif;
         background:rgba(255,253,248,.96);
         backdrop-filter:blur(12px);
         border-bottom:1px solid #eadfca}
+
+.nav{min-height:78px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:24px}
