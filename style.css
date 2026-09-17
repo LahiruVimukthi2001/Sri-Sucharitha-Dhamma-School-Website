@@ -22,3 +22,21 @@ body{font-family:"Noto Sans Sinhala",Poppins,sans-serif;
     align-items:center;
     justify-content:space-between;
     gap:24px}
+
+.brand{display:flex;
+       align-items:center;
+       gap:12px;
+       text-decoration:none;
+       color:#3a281d}
+
+.brand img{width:54px;
+           height:54px;
+           border-radius:50%;
+           object-fit:cover;
+           border:2px solid #c79b2b}
+
+.brand strong{display:block;
+              font-size:16px}
+
+.brand span{font-size:12px;
+            color:#9a6f19}
