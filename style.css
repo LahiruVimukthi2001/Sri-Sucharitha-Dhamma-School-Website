@@ -40,3 +40,14 @@ body{font-family:"Noto Sans Sinhala",Poppins,sans-serif;
 
 .brand span{font-size:12px;
             color:#9a6f19}
+
+.nav-links{display:flex;
+           align-items:center;
+           gap:20px}
+
+.nav-links a{color:#46372c;
+             text-decoration:none;
+             font-size:14px;
+             font-weight:600}
+
+.nav-links a:hover{color:#a56e0b}
