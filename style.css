@@ -51,3 +51,39 @@ body{font-family:"Noto Sans Sinhala",Poppins,sans-serif;
              font-weight:600}
 
 .nav-links a:hover{color:#a56e0b}
+
+.lang-btn{border:1px solid #b88720;
+          background:#fff8e5;
+          color:#8b5f0d;
+          border-radius:20px;
+          padding:8px 15px;
+          font-weight:700;
+          cursor:pointer}
+
+.menu-btn{display:none;
+          background:none;
+          border:0;
+          font-size:26px}
+
+.hero{min-height:650px;
+      position:relative;
+      display:flex;
+      align-items:center;
+      background:linear-gradient(135deg,#6d341d,#a76c18 50%,#e6c65a)}
+
+.hero:after{content:"☸";
+            position:absolute;
+            right:8%;
+            top:12%;
+            font-size:240px;
+            color:rgba(255,255,255,.09)}
+
+.hero-overlay{position:absolute;
+              inset:0;
+              background:radial-gradient(circle at 25% 40%,rgba(255,240,170,.2),transparent 38%)}
+
+.hero-content{position:relative;
+              z-index:1;
+              color:#fff;
+              max-width:760px;
+              padding:90px 0}
