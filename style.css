@@ -87,3 +87,29 @@ body{font-family:"Noto Sans Sinhala",Poppins,sans-serif;
               color:#fff;
               max-width:760px;
               padding:90px 0}
+
+.eyebrow,
+.section-tag{display:inline-block;
+            text-transform:uppercase;
+            letter-spacing:1px;
+            font-size:12px;
+            font-weight:800;
+            color:#c8911b;
+            margin-bottom:12px}
+
+.hero .eyebrow{color:#ffe7a0}
+
+.hero h1{font-size:clamp(40px,6vw,72px);
+         line-height:1.18;
+         margin-bottom:20px;
+         font-weight:800}
+
+.hero p{font-size:18px;
+        max-width:680px;
+        color:#fff7df}
+
+.hero-actions{display:flex;
+              gap:14px;
+              margin-top:32px;
+              flex-wrap:wrap}
+
