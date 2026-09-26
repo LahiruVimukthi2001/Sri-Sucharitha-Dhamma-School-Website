@@ -113,3 +113,19 @@ body{font-family:"Noto Sans Sinhala",Poppins,sans-serif;
               margin-top:32px;
               flex-wrap:wrap}
 
+.btn{display:inline-block;
+    padding:12px 22px;
+    border-radius:28px;
+    text-decoration:none;
+    font-weight:800;
+    border:1px solid transparent;
+    cursor:pointer}
+
+.btn.primary{background:#d8a72d;
+             color:#2d2116}
+
+.btn.primary:hover{background:#efc85b}
+
+.btn.secondary{border-color:#f7e8b6;
+               color:#fff;
+               background:transparent}
