@@ -15,3 +15,8 @@ function setLanguage(lang){
     : "Sri Sudharma Dhamma School | Mawathagama";
   localStorage.setItem("dhammaLang", lang);
 }
+langBtn.addEventListener("click",()=>setLanguage(currentLang === "si" ? "en" : "si"));
+menuBtn.addEventListener("click",()=>navLinks.classList.toggle("open"));
+document.querySelectorAll(".nav-links a").forEach(a=>a.addEventListener("click",()=>navLinks.classList.remove("open")));
+document.getElementById("year").textContent = new Date().getFullYear();
+setLanguage(localStorage.getItem("dhammaLang") || "si");
