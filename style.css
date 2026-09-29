@@ -129,3 +129,19 @@ body{font-family:"Noto Sans Sinhala",Poppins,sans-serif;
 .btn.secondary{border-color:#f7e8b6;
                color:#fff;
                background:transparent}
+
+.quick-stats{background:#fff;
+             border-bottom:1px solid #eadfca}
+
+.stats-grid{display:grid;
+            grid-template-columns:repeat(4,1fr);
+            padding:22px 0}
+
+.stat{text-align:center;
+      border-right:1px solid #eee1cc}.stat:last-child{border:0}
+
+.stat span{font-size:22px;
+           display:block}.stat strong{font-size:24px;
+           display:block;color:#7c4c1b}
+
+.stat small{color:#796e63}.section{padding:90px 0}.alt{background:#f8f1df}
