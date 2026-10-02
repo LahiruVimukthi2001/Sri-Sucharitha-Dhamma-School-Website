@@ -174,4 +174,34 @@ body{font-family:"Noto Sans Sinhala",Poppins,sans-serif;
 .video-section{padding:85px 0;
                background:#fffdf8}.video-frame{max-width:980px;margin:auto;background:#241a15;border-radius:24px;overflow:hidden;box-shadow:0 25px 70px rgba(60,35,15,.18);position:relative}.video-frame video{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}.video-note{text-align:center;color:#e7d8bf;background:#2b1d17;padding:10px 15px;font-size:12px}
 
-               
+             
+/*temple.html css*/
+.nav-links a.active {
+    color: #b8860b;
+    font-weight: 700;
+}
+
+.nav-links a.active::after {
+    width: 100%;
+}
+
+
+/*Annimation*/
+/* =========================================
+   TEMPLE PAGE ANIMATIONS
+========================================= */
+
+/* Smooth page loading */
+body {
+    animation: pageFade 0.8s ease;
+}
+
+@keyframes pageFade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
