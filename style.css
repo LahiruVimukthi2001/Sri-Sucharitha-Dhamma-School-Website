@@ -236,3 +236,21 @@ body {
 .nav-links a.active::after {
     width: 100%;
 }
+
+/* =========================================
+   HERO ANIMATION
+========================================= */
+
+.temple-hero .eyebrow {
+    display: inline-block;
+    animation: fadeDown 0.8s ease forwards;
+}
+
+.temple-hero h1 {
+    animation: fadeUp 1s ease 0.15s both;
+}
+
+.temple-hero p {
+    animation: fadeUp 1s ease 0.35s both;
+}
+
