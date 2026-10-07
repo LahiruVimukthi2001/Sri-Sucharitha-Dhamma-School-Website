@@ -279,3 +279,24 @@ body {
     }
 }
 
+/* =========================================
+   TEMPLE ICON
+========================================= */
+
+.card-icon {
+    animation: floatIcon 3s ease-in-out infinite;
+}
+
+@keyframes floatIcon {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
