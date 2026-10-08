@@ -300,3 +300,32 @@ body {
         transform: translateY(0);
     }
 }
+
+
+/* =========================================
+   CARDS
+========================================= */
+
+.info-card,
+.class-card {
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.info-card:hover,
+.class-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Card icon hover */
+.class-card > span:first-child {
+    display: inline-block;
+    transition: transform 0.35s ease;
+}
+
+.class-card:hover > span:first-child {
+    transform: scale(1.15) rotate(5deg);
+}
