@@ -329,3 +329,17 @@ body {
 .class-card:hover > span:first-child {
     transform: scale(1.15) rotate(5deg);
 }
+
+
+/* =========================================
+   SECTION HEADINGS
+========================================= */
+
+.section-tag {
+    display: inline-block;
+    animation: tagReveal 0.8s ease both;
+}
+
+.section-heading h2 {
+    animation: headingReveal 0.9s ease both;
+}
