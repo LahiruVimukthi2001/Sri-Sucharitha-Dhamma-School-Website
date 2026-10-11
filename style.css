@@ -367,3 +367,23 @@ body {
         transform: translateY(0);
     }
 }
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    animation: footerReveal 1s ease both;
+}
+
+@keyframes footerReveal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
