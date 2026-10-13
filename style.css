@@ -402,3 +402,21 @@ footer {
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .temple-hero h1 {
+        animation-duration: 0.8s;
+    }
+
+    .info-card:hover,
+    .class-card:hover {
+        transform: translateY(-4px);
+    }
+
+}
