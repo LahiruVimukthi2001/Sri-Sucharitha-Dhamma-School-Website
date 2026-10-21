@@ -436,3 +436,39 @@ footer {
     }
 
 }
+
+
+/* =========================================
+   PREMIUM BUDDHIST LOADING SCREEN
+========================================= */
+
+#loader {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        radial-gradient(
+            circle at center,
+            #fff8df 0%,
+            #f6e5b8 35%,
+            #e8c878 70%,
+            #d2aa4c 100%
+        );
+
+    overflow: hidden;
+
+    z-index: 99999;
+
+    opacity: 1;
+    visibility: visible;
+
+    transition:
+        opacity 1s ease,
+        visibility 1s ease;
+}
