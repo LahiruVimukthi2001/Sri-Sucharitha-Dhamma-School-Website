@@ -493,3 +493,21 @@ footer {
 
     animation: loaderContent 2s ease-in-out infinite alternate;
 }
+
+
+/* =========================================
+   LOGO GLOW
+========================================= */
+
+.logo-glow {
+    position: relative;
+
+    width: 125px;
+    height: 125px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
