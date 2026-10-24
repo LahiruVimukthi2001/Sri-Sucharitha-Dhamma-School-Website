@@ -511,3 +511,20 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+.logo-glow::before {
+    content: "";
+
+    position: absolute;
+
+    width: 125px;
+    height: 125px;
+
+    border-radius: 50%;
+
+    background: rgba(255, 215, 80, 0.45);
+
+    filter: blur(25px);
+
+    animation: goldenGlow 2s ease-in-out infinite;
+}
