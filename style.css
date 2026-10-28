@@ -549,3 +549,24 @@ footer {
 
     animation: logoFloat 3s ease-in-out infinite;
 }
+
+
+/* =========================================
+   SPINNER
+========================================= */
+
+.loader-spinner {
+    width: 45px;
+    height: 45px;
+
+    margin: 10px auto 20px;
+
+    border-radius: 50%;
+
+    border: 3px solid rgba(184, 134, 11, 0.2);
+
+    border-top-color: #b8860b;
+    border-right-color: #d4af37;
+
+    animation: spinLoader 1s linear infinite;
+}
