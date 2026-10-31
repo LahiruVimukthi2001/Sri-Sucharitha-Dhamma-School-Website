@@ -589,3 +589,34 @@ footer {
     text-shadow:
         0 1px 2px rgba(255, 255, 255, 0.7);
 }
+
+.loader-content p {
+    margin: 7px 0 0;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 14px;
+
+    color: #806a3c;
+
+    letter-spacing: 0.5px;
+}
+
+
+/* =========================================
+   LOADING TEXT
+========================================= */
+
+.loading-text {
+    margin-top: 15px;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 12px;
+
+    color: #94752b;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
