@@ -620,3 +620,13 @@ footer {
 
     text-transform: uppercase;
 }
+
+.dots {
+    display: inline-block;
+
+    width: 20px;
+
+    text-align: left;
+
+    animation: dotsAnimation 1.4s infinite;
+}
