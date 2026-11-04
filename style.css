@@ -630,3 +630,28 @@ footer {
 
     animation: dotsAnimation 1.4s infinite;
 }
+
+/* =========================================
+   FLOATING PARTICLES
+========================================= */
+
+.particles span {
+    position: absolute;
+
+    display: block;
+
+    width: 5px;
+    height: 5px;
+
+    border-radius: 50%;
+
+    background: #d4af37;
+
+    box-shadow:
+        0 0 8px #d4af37,
+        0 0 15px rgba(212, 175, 55, 0.6);
+
+    opacity: 0;
+
+    animation: particleFloat 5s linear infinite;
+}
