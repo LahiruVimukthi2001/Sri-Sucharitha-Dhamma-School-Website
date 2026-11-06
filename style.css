@@ -655,3 +655,65 @@ footer {
 
     animation: particleFloat 5s linear infinite;
 }
+
+/* Individual particle positions */
+
+.particles span:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.particles span:nth-child(2) {
+    left: 20%;
+    animation-delay: 1.2s;
+}
+
+.particles span:nth-child(3) {
+    left: 30%;
+    animation-delay: 2.4s;
+}
+
+.particles span:nth-child(4) {
+    left: 40%;
+    animation-delay: 0.8s;
+}
+
+.particles span:nth-child(5) {
+    left: 50%;
+    animation-delay: 1.8s;
+}
+
+.particles span:nth-child(6) {
+    left: 60%;
+    animation-delay: 3s;
+}
+
+.particles span:nth-child(7) {
+    left: 70%;
+    animation-delay: 0.5s;
+}
+
+.particles span:nth-child(8) {
+    left: 80%;
+    animation-delay: 2s;
+}
+
+.particles span:nth-child(9) {
+    left: 90%;
+    animation-delay: 3.5s;
+}
+
+.particles span:nth-child(10) {
+    left: 15%;
+    animation-delay: 4s;
+}
+
+.particles span:nth-child(11) {
+    left: 75%;
+    animation-delay: 4.5s;
+}
+
+.particles span:nth-child(12) {
+    left: 55%;
+    animation-delay: 2.8s;
+}
