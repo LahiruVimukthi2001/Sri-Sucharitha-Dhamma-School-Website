@@ -717,3 +717,19 @@ footer {
     left: 55%;
     animation-delay: 2.8s;
 }
+
+/* =========================================
+   LOTUS / SYMBOLS
+========================================= */
+
+.lotus-petals span {
+    position: absolute;
+
+    color: rgba(184, 134, 11, 0.45);
+
+    font-size: 22px;
+
+    opacity: 0;
+
+    animation: lotusFloat 6s ease-in-out infinite;
+}
