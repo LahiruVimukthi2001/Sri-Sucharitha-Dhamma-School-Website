@@ -733,3 +733,39 @@ footer {
 
     animation: lotusFloat 6s ease-in-out infinite;
 }
+
+.lotus-petals span:nth-child(1) {
+    left: 8%;
+    top: 70%;
+    animation-delay: 0s;
+}
+
+.lotus-petals span:nth-child(2) {
+    left: 20%;
+    top: 20%;
+    animation-delay: 1s;
+}
+
+.lotus-petals span:nth-child(3) {
+    left: 82%;
+    top: 65%;
+    animation-delay: 2s;
+}
+
+.lotus-petals span:nth-child(4) {
+    left: 75%;
+    top: 18%;
+    animation-delay: 3s;
+}
+
+.lotus-petals span:nth-child(5) {
+    left: 90%;
+    top: 40%;
+    animation-delay: 4s;
+}
+
+.lotus-petals span:nth-child(6) {
+    left: 5%;
+    top: 35%;
+    animation-delay: 5s;
+}
