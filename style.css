@@ -783,3 +783,17 @@ footer {
         transform: rotate(360deg);
     }
 }
+
+@keyframes logoFloat {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(-8px) scale(1.04);
+    }
+
+    100% {
+        transform: translateY(0) scale(1);
+    }
+}
