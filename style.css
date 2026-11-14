@@ -814,3 +814,41 @@ footer {
         opacity: 0.5;
     }
 }
+
+@keyframes loaderContent {
+    from {
+        transform: translateY(3px);
+    }
+
+    to {
+        transform: translateY(-3px);
+    }
+}
+
+@keyframes particleFloat {
+
+    0% {
+        bottom: -10%;
+        opacity: 0;
+        transform: translateX(0) scale(0.5);
+    }
+
+    20% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(25px) scale(1);
+    }
+
+    80% {
+        opacity: 0.5;
+    }
+
+    100% {
+        bottom: 110%;
+        opacity: 0;
+        transform: translateX(-25px) scale(0.3);
+    }
+}
