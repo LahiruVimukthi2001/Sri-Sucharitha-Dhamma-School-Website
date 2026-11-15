@@ -852,3 +852,52 @@ footer {
         transform: translateX(-25px) scale(0.3);
     }
 }
+
+@keyframes lotusFloat {
+
+    0% {
+        transform: translateY(30px) rotate(0deg);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: translateY(-30px) rotate(20deg);
+        opacity: 0.8;
+    }
+
+    80% {
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: translateY(-80px) rotate(-20deg);
+        opacity: 0;
+    }
+}
+
+@keyframes dotsAnimation {
+
+    0% {
+        opacity: 0.2;
+    }
+
+    25% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
