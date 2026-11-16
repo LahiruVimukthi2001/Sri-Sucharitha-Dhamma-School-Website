@@ -901,3 +901,39 @@ footer {
         opacity: 0.2;
     }
 }
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .logo-glow,
+    .logo-glow::before {
+        width: 105px;
+        height: 105px;
+    }
+
+    .loader-logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .loader-spinner {
+        width: 38px;
+        height: 38px;
+    }
+
+    .loader-content h2 {
+        font-size: 20px;
+    }
+
+    .loader-content p {
+        font-size: 12px;
+    }
+
+    .lotus-petals span {
+        font-size: 17px;
+    }
+}
